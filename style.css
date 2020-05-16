@@ -1,0 +1,171 @@
+body{
+    margin: 0 auto;
+    padding: 0 ;
+}
+
+
+.nav-list ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    
+}
+.nav-list a{
+    padding: 0 20px;
+    font-size: 20px; 
+    text-decoration: none;
+    color: #363636;   
+ 
+}
+main,.skill,.work,.contact{
+    background-color:#f7f731;
+}
+
+main{
+    width: 100%;
+    height: 500px;
+    background: url(画像/IMG_20200509_132743.jpg);
+    background-size: cover;
+    color: #f7f731;
+
+}
+main a {
+    display: block;
+}
+#home{
+    text-align: left;
+    padding: 20px;
+    background-color: rgb(197, 194, 194 );
+    width: 40%;
+}
+name{
+    font-size: 69px;
+    font-weight: bold;
+    
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.col{
+    flex: 1;
+    margin: 20px;
+}
+.skill a{
+    font-size: 50px;
+}
+.col img{
+    width: 80%;
+    padding: 20px;
+}
+h4{
+    font-size: 30px;
+}
+.work a{
+    font-size: 50px;
+}
+.work p{
+    text-align: center;
+}
+
+button{
+    display: block;
+    margin: auto;
+}
+h3{
+    font-size: 30px;
+}
+.about img{
+    width: 50%;
+    margin-left: 20px;
+}
+.about p{
+    text-align: left;
+    padding: 30px;
+}
+.contact-row{
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+    padding-bottom: 30px;
+}
+
+ th,input,textarea {
+	width: 45%;
+}
+input{
+   margin: 10px;
+   height: 20px;
+}
+textarea{
+    height: 100px;
+    margin: 10px;
+}
+@media(max-width:860px){
+    h1{
+        font-size: 20px;
+    }
+    #home{
+        text-align: left;
+        padding: 3px;
+
+    }
+    name{
+        font-size: 40px;
+        text-align: center;
+
+    }
+      .row{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .col{
+        flex: 1;
+        margin: 10px;
+    }
+    .col img{
+        width: 90%;
+    }
+    .about img {
+        width: 70%;
+
+        margin: auto;
+    }
+    th,input,textarea {
+        width: 90%;
+    }
+   
+}
+
+@media (max-width:550px){
+    .nav-list ul{
+        display: none;
+    }
+    h1{
+        font-size: 15px;
+    }
+    #home{
+        text-align: left;
+        width: auto;
+        padding: 10px;
+
+
+    }
+    name{
+        font-size: 30px;
+        text-align: left;
+
+    }
+      
+
+}
